@@ -1,0 +1,22 @@
+AL = 80H
+BL = 80H
+
+ADD AL, BL
+
+Convert 80H to binary: 1000 0000
+
+Addition:
+
+   1000 0000
++  1000 0000
+--------------
+ 1 0000 0000
+
+Flags:
+
+A) CF: 1
+B) PF: 1
+C) AF: 0
+D) ZF: 1
+E) SF: 0
+F) OF: 1 

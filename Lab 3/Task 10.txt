@@ -1,0 +1,13 @@
+LET, 
+AX = 0111 0101
+BX = 0101 1110
+
+ADD AX, BX:
+
+   0111 0101
++  0101 1110
+-------------
+   1101	0011
+
+In the above example, signed overflow occured as adding two positive values gave a negative value. 
+It is to be noted that here there is a carry in but no carry out.
